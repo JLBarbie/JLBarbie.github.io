@@ -10,8 +10,12 @@ hasCJKLanguage = true
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
-    author = "Your Name"
+    author = "JLBarbie"
     avatar = "avatar.jpg"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
@@ -19,7 +23,7 @@ hasCJKLanguage = true
         Please write anything here.
         Profiles, backgrounds, favorite things etc.
     """
-    publicationYear = "2019"
+    publicationYear = "2025"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     custom_css = ["/css/custom.css"]
